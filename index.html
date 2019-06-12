@@ -6,8 +6,8 @@
     <meta name="description" content="Seguridad Informática">
 	  <meta name="keywords" content="navegación, vulnerabilidad, seguridad informática, prevención, riesgo">
   	<meta name="author" content="Daniela Yepes Bedoya">
-    <title> Seguridad | Welcome</title>
-    <link rel="stylesheet" href="Estilo.css">
+    <title>Fa Seguridad | Welcome</title>
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <header>
@@ -15,13 +15,114 @@
         <div id="branding">
           <h1><span class="highlight">Informática</span> Seguridad</h1>
         </div>
+<!--Buscador-->
+		<div class="header-top">
+			<div class="navegacion">
+				<input type="search" placeholder="Buscar . . ." id="inputBusqueda">
+			</div>
+
+		<div class="search" id="search">
+			<table class="search-table" id="searchTable">
+				<thead>
+					<tr>
+						<td></td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><a href="Index.html">Inicio</a></td>
+					</tr>
+
+					<tr>
+						<td><a href="menu/Objetivos.html">Objetivos</a></td>
+					</tr>
+
+					<tr>
+							<td><a href="menu/Video_Conceptos.html">Video Conceptos </a></td>
+						</tr>
+
+						<tr>
+							<td><a href="menu/Video_Normas.html">Video Normas</a></td>
+						</tr>
+
+						<tr>
+							<td><a href="menu/Video_Impacto.html">Video Impacto</a></td>
+						</tr>
+
+						<tr>
+							<td><a href="menu/Video_Principios.html">Video Principios</a></td>
+						</tr>
+
+						<tr>
+							<td><a href="menu/Video_Medidas.html">Video Medidas</a></td>
+						</tr>
+
+						<tr>
+							<td><a href="menu/Video_Usuarios.html">Video Usuarios</a></td>
+						</tr>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</header>
+
+
+<!--Logo de La Unad-->
+	<section id="logounad">
+		<div class="contenedor">
+			<a  href="https://www.unad.edu.co/" title="Pagina de inicio de la Universidad Naconal Abierta y A Distancia" target="_blank">
+				<img src="img/logounad.png">
+			</a>
+		</div>
+	</section>
+
+<!--Menu-->
+	<section id="menus">
+		<section id="principal">
+			<nav id="general">			
+				<div class="lista">	
+
+					<section id="boton" >
+					<input type="checkbox" id="btn-menu">
+					<label for="btn-menu" class="icon-menu"></label>
+
+
+					<nav class="menu">
+						<ul>	
+
+							<li class="Inicio"><span class="actual"><a href="index.html" class= "icon-inicio">Inicio</a></span></li>
+							<li ><a href="menu/Objetivos.html"class= "icon-objetivos">Objetivos</a></li>	
+
+
+							<li class="submenu"><a href="#"class= "icon-multimedia">Multimedia<span class="icon-down-open"></span></a>
+								<ul class="sub">
+									<li><a href="menu/Video_Conceptos.html"class= "icon-multimedia">Video Conceptos</a></li>
+									<li><a href="menu/Video_Normas.html"class= "icon-multimedia">Video Normas</a></li>
+									<li><a href="menu/Video_Impacto.html"class= "icon-multimedia">Video Impacto</a></li>
+									<li><a href="menu/Video_Principios.html"class= "icon-multimedia">Video Principios</a></li>
+									<li><a href="menu/Video_Medidas.html"class= "icon-multimedia">Video Medidas</a></li>
+									<li><a href="menu/Video_Usuarios.html"class= "icon-multimedia">Video Usuarios</a></li>
+								</ul>
+							</li>
+
+													
+							<li><a href="menu/Referencias.html"class= "icon-referencias">Referencias</a></li>
+
+						</ul>
+					</nav>
+				</div>
+			</nav>
+		</section>
+	</section>
+</section>
+
+
         <nav>
           <ul>
             <li class="current"><a href="index.html">Inicio</a></li>
             <li><a href="Objetivos.html">Objetivos</a></li>
             <li><a href="Multimedia.html">Multimedia</a></li>
-	    <li><a href="Autores.html">Autores</a></li>
- 	    <li><a href="Referencias.html">Referencias</a></li>	
+	    <li><a href="Referencias.html">Referencias</a></li>	
           </ul>
         </nav>
       </div>
@@ -69,6 +170,80 @@ por medio del uso de software que protegen la navegación y el uso compartido de
         </div>
       </div>
     </section>
+<!--/*widget para la red social Twitter-->
+<hr/>
+	<aside id="twittertitulo">
+
+		<div class="twittertitulo1">
+			<h5>Twitter Oficial UNAD</h5>
+		</div>
+	</aside>
+<br>
+
+
+
+<section id="widget">
+	<aside id="logotwitter">
+		<a href="https://twitter.com/?logout=1558070873485" target="_blank" title= "Ingresar a Twitter">
+			<img id="imagen1" src="img/logo_twitter.png"></a>
+	</aside>
+
+
+	<aside id="twitterunad">
+		<a class="twitter-timeline" data-lang="es" data-width="220" data-height="499" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</aside>
+
+
+	<aside id="seguirunad">
+		<a href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw" class="twitter-follow-button"data-size="large" data-lang="es" data-show-count="false" >Follow @UniversidadUNAD</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</aside>
+</section>
+
+
+
+<hr/>
+<!--Contadores-->
+	<aside id="contadores">
+		<div class="contenedor">
+			<div class="contador">
+				<h3>Numero de Visitantes:</h3>
+			</div>
+		</div>
+	</aside>
+
+	<aside id="contadores1">
+		<div class="contenedor">
+			<div class="contador1">
+
+			</div>
+		</div>
+	</aside>
+
+
+
+<!--Pie De Pagina-->
+	<hr/>
+
+	<footer id="piedepagina">
+		<div class="contenedor">
+			<div class="pie1">
+				<nav>
+					<ul>
+						<li >
+							<br>
+							<a>Universidad Nacional Abierta y a Distancia</a>
+							<br>
+						</li>
+
+						<li >
+							<a>(UNAD)</a>
+
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+<br>
 
     <footer>
       <p>Diseño de Sistemas-UNAD, Copyright &copy; 2019</p>
